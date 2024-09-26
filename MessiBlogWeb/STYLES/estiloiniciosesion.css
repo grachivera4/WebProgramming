@@ -1,0 +1,130 @@
+body {
+    font-family: "Bebas Neue", sans-serif; 
+    margin: 2vw;
+    padding: 2vw;
+    background-color: rgb(95, 2, 31);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+header {
+    padding: 2%; 
+    height: auto; 
+    position: static;
+    top: 0; 
+    background-color: #800031de;
+    font-size: 1rem;
+    color: #ebc950;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+    background-image: url(/imagenes/messifotoazulDOS.jpg);
+    background-repeat: round;
+    background-size: contain;
+    font-size: 100px; 
+}
+
+div h1, h2 {
+    text-align: center;
+    color: #000000d2;
+}
+
+label {
+    font-size: 18px; 
+    color: #FDB913;
+    display: block; 
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 2px solid #050944; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    color: #ffffffd0; 
+    background-color: #0a045ac9; 
+    font-family: 'Bebas Neue', sans-serif;
+    transition: border-color 0.3s; 
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #FDB913; 
+    outline: none; 
+}
+
+button,
+input[type="reset"] {
+    background-color: #740c20d4; 
+    color: #FFFFFF; 
+    font-size: 18px; 
+    padding: 10px 20px; 
+    font-family: 'Bebas Neue',sans-serif;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover,
+input[type="reset"]:hover {
+    background-color: #FDB913; 
+    color: #004D98; 
+}
+
+footer {
+    height: 100px; 
+    margin: 20px 30px; 
+    font-size: 11px; 
+    background-color: #040642d2;
+    color: #f44e4e;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a img {
+    width: 5%;
+    margin: 3%;
+    align-content: center;
+    transition: transform 0.3s ease;
+    border-radius: 10%;
+}
+
+footer a img:hover {
+    transform: scale(2.0); 
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px; 
+    color: #f8d96787;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        font-size: 50px; 
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        font-size: 14px; 
+    }
+
+    button,
+    input[type="reset"] {
+        font-size: 16px; 
+        padding: 8px 16px; 
+    }
+
+    footer {
+        font-size: 10px; 
+    }
+}

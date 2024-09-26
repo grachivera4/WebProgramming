@@ -1,0 +1,125 @@
+body{
+    font-family: "Bebas Neue", sans-serif; 
+    margin: 2vw;
+    padding: 2vw;
+    background-color: rgb(95,2,31);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+header {
+    padding: 2%; 
+    height: auto; 
+    position: static;
+    top: 0; 
+    background-color: #800031de;
+    font-size: 1rem;
+    color: #ebc950;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+    background-image: url(/imagenes/messifotoazulDOS.jpg);
+    background-repeat: round;
+    background-size: contain;
+}
+
+header a {
+    color: rgba(186, 194, 32, 0.884);
+    margin: 2vw;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header a:hover {
+    background-color: #970729be;
+    color: #f6e051;
+}
+
+h1{
+    font-size: 5vw;
+    color: #000000cf;
+    background-color: #e6b918c7;
+    padding: 10px; 
+    border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2{
+    color: #000000b3;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+    background-color: #dbb21eb5;
+    margin:0;
+    width: 100%;
+    text-align: center;
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: #0000009c;
+}
+
+footer {
+    height: 100px; 
+    margin: 20px, 30px, 40px, 20px; 
+    font-size: 11px; 
+    background-color: #040642d2;
+    color: #f44e4e;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a img {
+    width: 5%;
+    margin: 3%;
+    align-content: center;
+    transition: transform 0.3s ease;
+    border-radius: 10%;
+}
+
+footer a img:hover {
+    transform: scale(2.0); 
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px; 
+    color: #f8d96787;
+    font-family:"Bebas Neue", sans-serif;
+}
+
+.contienebody img {
+    float: right; 
+    margin-left: 10px; 
+    margin-bottom: 10px; 
+}
+
+
+.contienebody::after {
+    content: ""; 
+    display: table;
+    clear: both; 
+}
