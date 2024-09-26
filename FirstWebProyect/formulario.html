@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Página Web</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>   
+    <body>
+        <header>
+            <a href="tabla.html">Tabla</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="texto.html">Texto</a>
+            <a href="index.html">Inicio</a>
+        </header>
+        <form action="https://web-hrl.net/temp/practica_form.php" method="get">
+            <fieldset> 
+                <legend>informacion personal...</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br>
+                <label for="fecha">Fecha de nacimiento: </label>
+                <input type="date" id="fecha" name="fecha" required>
+            </fieldset>
+            <fieldset>
+                <legend>Informacion de contacto...</legend>
+                <label for="correo">Correo electronico:</label>
+                <input type="email" placeholder="correo@example.com" required> <br>
+                <label for="tel">Numero de telefono: </label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Formato: 123-456-7890"> <br>
+                <label for="direccion">Direccion: </label> <br>
+                <textarea id="direccion" name="direccion" rows="4" cols="50" placeholder="Ingresa tu dirección aquí..."></textarea><br>
+            </fieldset>    
+            <fieldset>
+                <legend> Informacion de cuenta...</legend>
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" id="user" name="user" required><br>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" placeholder="Ingresa tu contraseña aquí..." required><br>
+                <label for="confirmacion">Confirmar Contraseña:</label>
+                <input type="password" id="confirmacion" name="confirmacion" placeholder="Confirma tu contraseña aquí..." required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Preferencias del usuario...</legend>
+                <label for="color">Color preferido: </label><br>
+                <input type="radio" id="rojo" name="colorfav" value="Rojo">
+                <label for="rojo">Rojo</label><br>
+                <input type="radio" id="azul" name="colorfav" value="Azul" checked="checked">
+                <label for="azul">Azul</label><br>
+                <input type="radio" id="amarillo" name="colorfav" value="Amarillo">
+                <label for="amarillo">Amarillo</label><br>
+                <input type="radio" id="verde" name="colorfav" value="Verde">
+                <label for="verde">Verde</label><br><br>
+                <label for="terminos">Terminos y Condiciones</label><br>
+                <input type="checkbox" name="termino1" value="Acepto1" required>
+                <label for="termino1"> Acepto terminos y Condiciones</label><br>
+            </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </body>
+    <br>
+    <br>
+    <footer>
+        <a href="mailto:grachivera29@gmail.com"> Visite nuestro E-Mail! </a> <br>
+        <a href="tel:+1234567890">Llame a nuestro telefono...</a>
+        <p> Todos los derechos reservados ©</p>
+    </footer>
+</html>
