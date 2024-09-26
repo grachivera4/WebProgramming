@@ -1,0 +1,1 @@
+Subo este proyecto para mostrar un ejemplo de Blog Web con tematica de Biografia, la idea es seguir actualizando para poder llegar a conseguir una pagina dinamica e implementar una base de datos para poder hacerla interactiva. 
